@@ -1,0 +1,16 @@
+const Discord = require('discord.js');
+const client = new Discord.Client();
+
+client.on('ready', () => {
+    console.log('I am ready!');
+});
+
+client.on('message', message => {
+    if (message.content === 'Hey') {
+    	message.reply('Hey');
+      message.reply('Hello');
+    else (message.content === 'How you doing') {
+  	}
+});
+
+client.login(process.env.BOT_NDk5MjMxMTc0NzQxNDU4OTQ1.Dp6Avw.7RPikxMvsD11ML9Q0cBHG80PUyc);
